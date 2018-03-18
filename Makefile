@@ -9,5 +9,5 @@ PACKAGENAME := github.com/akito0107/alpine-demo
 all: main
 
 main:
-	GOOS=linus GOARCH=amd64 go build -ldflags "$(LDFLAGS)" -o main main.go
+	GOOS=linux GOARCH=amd64 go build -ldflags "$(LDFLAGS)" -o main main.go
 
